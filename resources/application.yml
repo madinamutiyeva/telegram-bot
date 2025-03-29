@@ -1,7 +1,7 @@
 telegram:
   bot:
-    username: ${BOT_NAME:CoinVisionCryptoHelperBot}
-    token: ${BOT_TOKEN:8044270898:AAHbqRvBcEaiFRzJ0gDj4XD6gR5Dn0aOrKc}
+    username: ${BOT_NAME}
+    token: ${BOT_TOKEN}
     notify:
       delay:
         value: 10
