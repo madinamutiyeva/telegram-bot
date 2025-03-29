@@ -1,0 +1,23 @@
+telegram:
+  bot:
+    username: ${BOT_NAME:CoinVisionCryptoHelperBot}
+    token: ${BOT_TOKEN:8044270898:AAHbqRvBcEaiFRzJ0gDj4XD6gR5Dn0aOrKc}
+    notify:
+      delay:
+        value: 10
+        unit: MINUTES
+
+binance:
+  api:
+    getPrice: https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT
+
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/crypto_bot
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
